@@ -1,0 +1,110 @@
+body{
+  background-color: #344955;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#main{
+  margin-top: 4%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #00ADB5; */
+}
+
+#add-task{
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  border-bottom: #00ADB5 4px solid;
+  border-radius: 8px 8px 0px 0px;
+  /* box-shadow: 0px 2px 6px 1px antiquewhite; */
+  /* max-width: 800px; */
+}
+
+#add-task input{
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #F9F7F7;
+  outline: none;
+  color: #222831;
+  border-radius: 8px 0px 0px 0px;
+  border: none;
+}
+
+#add-task button{
+  padding: 10px;
+  font-size: 20px;
+  background-color: #F9F7F7;
+  outline: none;
+  color: #141414;
+  border-radius: 0px 8px 0px 0px;
+  border: none;
+}
+
+#ts-card{
+  min-width: 300px;
+  background-color: #35374B;
+  border-radius: 0px 0px 8px 8px;
+}
+
+#view-ts{
+  display: flex;
+  background-color: #344955;
+  border-bottom: 1px solid #fff;
+}
+
+.view-ts-btn{
+  flex: 1;
+  padding: 10px 0px;
+  border: none;
+  font-weight: 500;
+  border-radius: 5px 5px 0px 0px;
+  color: white;
+}
+
+#all-ts{
+  background-color: #010048;
+}
+
+#comp-ts{
+  background-color: #306844;
+}
+
+#incomp-ts{
+  background-color: #800000;
+}
+
+#ts-container{
+  padding: 20px;
+}
+
+#ts-op{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #00ADB5;
+  padding-bottom: 5px;
+}
+
+#ts-status{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #00ADB5;
+  padding-top: 5px;
+}
+
+.sub-text{
+  color: #00ADB5;
+  font-size: smaller;
+}
+
+.task{
+  display: flex;
+  justify-content: space-between;
+  background-color: #50727B;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  color: white;
+}

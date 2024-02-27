@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div id="main">
+    <form id="add-task">
+      <input id="input-task" placeholder="New Task">
+      <button type="submit"><i class="fa-solid fa-plus"></i></button>
+    </form>
+
+    <div id="ts-card">
+      <div id="view-ts">
+        <button id="all-ts" class="view-ts-btn">
+          All
+        </button>
+        <button id="comp-ts" class="view-ts-btn">
+          Completed
+        </button>
+        <button id="incomp-ts" class="view-ts-btn">
+          Incomplete
+        </button>
+      </div>
+      <div id="ts-container">
+        <div id="ts-op">
+          <a class="sub-text">Complete all tasks</a>
+          <a class="sub-text">Clear completed</a>
+        </div>
+        <div id="ts-lst">
+          <div class="task">
+            <div>
+              <a><i class="fa-regular fa-square"></i> To but vegetables</a>
+            </div>
+            <a class="del-btn"><i class="fa-regular fa-circle-xmark"></i></a>
+          </div>
+          <div class="task">
+            <div>
+              <a><i class="fa-regular fa-square-check"></i> To but vegetables</a>
+            </div>
+            <a class="del-btn"><i class="fa-regular fa-circle-xmark"></i></a>
+          </div>
+          <div class="task">
+            <div>
+              <a><i class="fa-regular fa-square"></i> To but vegetables</a>
+            </div>
+            <a class="del-btn"><i class="fa-regular fa-circle-xmark"></i></a>
+          </div>
+        </div>
+        <div id="ts-status">
+          <a class="sub-text">10 tasks left</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/20fefde760.js" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
