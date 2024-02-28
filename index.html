@@ -11,12 +11,14 @@
 <body>
 
   <div id="main">
+    <!-- forms for new tasks -->
     <form id="add-task">
       <input id="input-task" placeholder="New Task">
       <button type="submit"><i class="fa-solid fa-plus"></i></button>
     </form>
-
+    <!-- tasks card -->
     <div id="ts-card">
+      <!-- for handling what type of tasks is to be displayed -->
       <div id="view-ts">
         <button id="all-ts" onclick="view_all()" class="view-ts-btn">
           All
@@ -28,14 +30,18 @@
           Incomplete
         </button>
       </div>
+      <!-- conatainer for all tasks list -->
       <div id="ts-container">
+        <!-- handle some operations for tasks -->
         <div id="ts-op">
           <a class="sub-text" onclick="comp_all()">Complete all tasks</a>
           <a class="sub-text" onclick="clear_all()">Clear completed</a>
         </div>
+        <!-- display of all tasks -->
         <div id="ts-lst">
           
         </div>
+        <!-- status of how many task left -->
         <div id="ts-status">
           <a class="sub-text">10 tasks left</a>
         </div>
