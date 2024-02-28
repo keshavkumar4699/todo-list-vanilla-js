@@ -18,40 +18,23 @@
 
     <div id="ts-card">
       <div id="view-ts">
-        <button id="all-ts" class="view-ts-btn">
+        <button id="all-ts" onclick="view_all()" class="view-ts-btn">
           All
         </button>
-        <button id="comp-ts" class="view-ts-btn">
+        <button id="comp-ts" onclick="view_comp()" class="view-ts-btn">
           Completed
         </button>
-        <button id="incomp-ts" class="view-ts-btn">
+        <button id="incomp-ts" onclick="view_incomp()" class="view-ts-btn">
           Incomplete
         </button>
       </div>
       <div id="ts-container">
         <div id="ts-op">
-          <a class="sub-text">Complete all tasks</a>
-          <a class="sub-text">Clear completed</a>
+          <a class="sub-text" onclick="comp_all()">Complete all tasks</a>
+          <a class="sub-text" onclick="clear_all()">Clear completed</a>
         </div>
         <div id="ts-lst">
-          <div class="task">
-            <div>
-              <a><i class="fa-regular fa-square"></i> To but vegetables</a>
-            </div>
-            <a class="del-btn"><i class="fa-regular fa-circle-xmark"></i></a>
-          </div>
-          <div class="task">
-            <div>
-              <a><i class="fa-regular fa-square-check"></i> To but vegetables</a>
-            </div>
-            <a class="del-btn"><i class="fa-regular fa-circle-xmark"></i></a>
-          </div>
-          <div class="task">
-            <div>
-              <a><i class="fa-regular fa-square"></i> To but vegetables</a>
-            </div>
-            <a class="del-btn"><i class="fa-regular fa-circle-xmark"></i></a>
-          </div>
+          
         </div>
         <div id="ts-status">
           <a class="sub-text">10 tasks left</a>
