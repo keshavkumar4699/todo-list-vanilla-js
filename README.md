@@ -19,3 +19,4 @@ Follow given steps to run this project on your local machine
 2. Add database
 
 ### Video Link
+```https://youtu.be/BRRSstKTwcg```
